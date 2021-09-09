@@ -4,18 +4,19 @@
     padding: 0;
     margin: 0;
 }
-
+/* I guess slightly grey is better than blinding white */
 body {
     background-color: #d9dcd6;
 }
 
 ul{
-    position: relative;
-    bottom: 30px;
+    position: relative; 
+    bottom: 36px;
     float: right;
 }
 
 li {
+    /*Separates links*/
     padding: 0 10px;
     display: inline;
 }
@@ -23,7 +24,7 @@ li {
 .header {
     position: fixed;
     width: 100%;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -46,11 +47,6 @@ h1 {
     list-style-type: none;
 }
 
-/* .header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-} */
-
 a { /* all hyperlinks, no underline, color white*/
     color: #ffffff;
     text-decoration: none;
@@ -63,7 +59,7 @@ p {
 .hero {
     height: 100%;
     width: 100%;
-    margin-top: 140px;
+    margin-top: 90px;
     margin-bottom: 25px;
 }
 
