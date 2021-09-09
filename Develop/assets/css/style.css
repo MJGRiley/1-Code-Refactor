@@ -1,3 +1,4 @@
+/*Universal Selector to set baseline */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -10,26 +11,26 @@ body {
 
 ul{
     position: relative;
-    bottom: 35px;
+    bottom: 30px;
+    float: right;
 }
 
 li {
     padding: 0 10px;
     display: inline;
-    float: right;
 }
 
 .header {
+    position: fixed;
+    width: 100%;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-
 }
 
-.header h1 {
+h1 {
     display: inline-block;
-
     font-size: 48px;
 }
 
@@ -62,6 +63,7 @@ p {
 .hero {
     height: 100%;
     width: 100%;
+    margin-top: 140px;
     margin-bottom: 25px;
 }
 
