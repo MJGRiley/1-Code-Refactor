@@ -3,12 +3,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-size: 16px;
 }
+
 /* I guess slightly grey is better than blinding white */
 body {
     background-color: #d9dcd6;
 }
+
 header {
     /*header stays with page as you scroll*/
     position: fixed;
@@ -25,8 +26,7 @@ h1 {
     font-size: 48px;
 }
 
-/*changes seo to same as background and correct size,
-  I guess this is something the client wanted */
+/*changes seo to same as background and correct size*/
 .seo {
     color: #d9dcd6;
     font-size: 48px;
@@ -45,6 +45,7 @@ li {
     padding: 0 10px;
     display: inline;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 
 /* all hyperlinks, no underline, color white*/
@@ -57,7 +58,7 @@ a {
 #frontImage {
     height: 100%;
     width: 100%;
-    margin-top: 90px;
+    margin-top: 40px;
     margin-bottom: 25px;
 }
 
@@ -87,14 +88,18 @@ main {
     margin-right: 25px;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 /*right side of bottom*/
@@ -117,7 +122,7 @@ h2 {
 h3 {
     margin-bottom: 10px;
     text-align: center;
-    font-size: larger;
+    font-size: 1.17em;
 }
 
 .benefitImg {
@@ -133,6 +138,6 @@ h3 {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
