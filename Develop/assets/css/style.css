@@ -3,31 +3,12 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-size: 16px;
 }
 /* I guess slightly grey is better than blinding white */
 body {
     background-color: #d9dcd6;
 }
-
-/*changes seo to same as background */
-.seo {
-    color: #d9dcd6;
-}
-
-/*pushing the ul up to be even with h1 and justify right*/
-ul{
-    position: relative; 
-    bottom: 36px;
-    float: right;
-}
-
-li {
-    /*Separates links*/
-    padding: 0 10px;
-    display: inline;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
 header {
     /*header stays with page as you scroll*/
     position: fixed;
@@ -44,38 +25,49 @@ h1 {
     font-size: 48px;
 }
 
+/*changes seo to same as background and correct size,
+  I guess this is something the client wanted */
+.seo {
+    color: #d9dcd6;
+    font-size: 48px;
+}
+
+/*pushing the ul up to be even with h1 and justify right*/
+ul{
+    position: relative; 
+    bottom: 36px;
+    float: right;
+}
+
+li {
+    /*Separates links*/
+    padding: 0 10px;
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 /* all hyperlinks, no underline, color white*/
 a { 
     color: #ffffff;
     text-decoration: none;
 }
 
-.frontImage {
+/*one time use*/
+#frontImage {
     height: 100%;
     width: 100%;
     margin-top: 90px;
     margin-bottom: 25px;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/*left side of bottom*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-p {
-    font-size: 16px;
-}
 
+/*defines each div box*/
 .content {
     margin-bottom: 20px;
     padding: 50px;
@@ -85,8 +77,18 @@ p {
     color: #ffffff;
  }
 
-.contentImages {
+ .contentImages {
     max-height: 200px;
+}
+
+ .float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 h2 {
@@ -94,6 +96,7 @@ h2 {
     font-size: 36px;
 }
 
+/*right side of bottom*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -113,6 +116,7 @@ h2 {
 h3 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: larger;
 }
 
 side img {
