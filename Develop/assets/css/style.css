@@ -30,6 +30,7 @@ h1 {
 .seo {
     color: #d9dcd6;
     font-size: 48px;
+    font-style: normal;
 }
 
 /*pushing the ul up to be even with h1 and justify right*/
@@ -67,7 +68,7 @@ main {
     margin-left: 20px;
 }
 
-/*defines each div box*/
+/*defines each  box*/
 .content {
     margin-bottom: 20px;
     padding: 50px;
@@ -119,7 +120,7 @@ h3 {
     font-size: larger;
 }
 
-side img {
+.benefitImg {
     display: block;
     margin: 10px auto;
     max-width: 150px;
