@@ -1,6 +1,7 @@
 /*Universal Selector to set baseline */
 * {
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -79,11 +80,11 @@ main {
     color: #ffffff;
  }
 
- .contentImages {
+ .contentImages {/*gives the content images a fixed height*/
     max-height: 200px;
 }
 
- .float-left {
+ .float-left {/*2 of the images in content go left*/
     float: left;
     margin-right: 25px;
 }
@@ -97,7 +98,7 @@ p {
     font-size: 16px;
 }
 
-.float-right {
+.float-right {/*the middle image goes right */
     float: right;
     margin-left: 25px;
 }
@@ -119,7 +120,7 @@ p {
     color: #ffffff;
 }
 
-h3 {
+h3 {/*positioning and size */
     margin-bottom: 10px;
     text-align: center;
     font-size: 1.17em;
